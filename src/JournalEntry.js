@@ -1,9 +1,11 @@
 import React from 'react'
 
+import './JournalEntry.css'
+
 const JournalEntry = ({title, content}) => {
   const c = { __html: content }
   return (
-    <div>
+    <div className='journalEntry'>
       <h1>{title}</h1>
       <content dangerouslySetInnerHTML={c} />
     </div>
