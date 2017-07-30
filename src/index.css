@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300|Raleway:900');
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Raleway;
+  font-weight: 900;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Quicksand, sans-serif;
+  font-weight: 300;
   font-size: 16px;
 }
