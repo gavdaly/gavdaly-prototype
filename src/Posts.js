@@ -3,8 +3,6 @@ import { Switch, Route } from 'react-router-dom'
 import PostList from './PostList'
 import Post from './Post'
 
-import './Posts.css'
-
 const Posts = () => {
   return(
     <Switch>

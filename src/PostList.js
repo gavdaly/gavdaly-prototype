@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import './Posts.css'
+import './PostList.css'
 
 class PostsList extends Component {
   state = {
