@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import './Post.css'
+
 class Post extends Component {
   state = {
     slug: '',
@@ -20,9 +22,9 @@ class Post extends Component {
   render(){
     const post = this.state.post.map(p => {
       return (
-        <div key={p.slug}>
+        <div className='post' key={p.slug}>
           <h1>{p.title.rendered}</h1>
-          <div dangerouslySetInnerHTML={this.createMarkup(p.content.rendered)} ></div>
+          <content dangerouslySetInnerHTML={this.createMarkup(p.content.rendered)} ></content>
         </div>
       )
     })
